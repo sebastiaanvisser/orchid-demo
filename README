@@ -1,0 +1,17 @@
+Use the Haskell cabal-install to install this Orchid demo:
+
+  cabal configure &&
+  cabal build &&
+  cabal install
+
+When running the demo for the first time you have to instruct it to extract the
+archive containing the demo Darcs repository:
+
+  orchid-demo --extract
+
+Successive runs do not require extraction. The repository can be found in
+/tmp/data by default. Make sure /tmp is world writable. The command line
+arguments to orchid-demo can be used to change the programs defaults.
+
+Please report problems to: sfvisser@cs.uu.nl
+
