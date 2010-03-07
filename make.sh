@@ -1,0 +1,2 @@
+cabal configure &&
+cabal build
